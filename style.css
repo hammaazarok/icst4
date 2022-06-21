@@ -1,0 +1,222 @@
+@import url('http://fonts.cdnfonts.com/css/lato');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+.wrapper {
+    width: 768px;
+    background: #fff;
+    margin: 0;
+  }
+
+.top-menu{
+  display: none;
+}
+
+.nav-bar-desktop {
+    display: none;
+  }
+  
+  .nav-bar {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-bar a {
+    text-decoration: none;
+  }
+  
+  .nav-bar p {
+    font-family: 'cocogoose', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6070ff;
+  }
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 36px;
+    margin-top: 12px;
+    align-items: flex-end;
+    background-color: #fff;
+  }
+  
+  .nav-menu {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 5px;
+    display: none;
+  }
+  
+  /** menu **/
+  .show {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    align-items: flex-start;
+    justify-content: start;
+    left: 0;
+    flex-direction: column;
+    padding-top: 115px;
+  }
+  
+  .margin-top {
+    margin-top: 30px;
+  }
+  
+  .bgcolor {
+    background-color: #6070ff;
+  }
+  
+  .bgcolor1 {
+    background-color: #6070ff;
+  }
+  
+  .blur {
+    backdrop-filter: blur(5px);
+  }
+  
+  .show li a {
+    color: #fff;
+    font-family: 'cocogoose', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+  }
+  
+  .nav-item {
+    list-style-type: none;
+  }
+  
+  .hamburger img{
+    width: 20px;
+  }
+  
+  .nav-link {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .magin-block-cancel{
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .color1 {
+    color: #272a31;
+  }
+  .color2 {
+    color: #ec5242;
+  }
+  .color3 {
+    color: #d3d3d3;
+  }
+
+  .cocogoose-font {
+    font-family: 'COCOGOOSE', sans-serif;
+  }
+
+  .lato-font {
+    font-family: 'Lato', sans-serif;
+  }
+
+  @media screen and (min-width: 768px) {
+    .wrapper {
+      width: 100%;
+    }
+    .wrapper > * {
+      padding: 0 15%;
+    }
+  
+    .nav-container {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    .nav-header {
+      display: flex;
+      justify-content: space-between;
+      background-color: #fff;
+    }
+
+    .top-menu{
+      display: flex;
+      height: 36px;
+      justify-content: end;
+      background-color: rgb(62, 62, 62);
+      text-align: right;
+      line-height: 36px;
+      vertical-align: middle;
+     
+    }
+    
+    .top-menu-item-link{
+      color: #fff;
+      text-decoration: none;
+      margin-right: 10px;
+      font-size: 0.813em;
+    }
+   
+   
+    .top-menu-item-icon{
+      width: 40px;
+      height: 40px;
+      color: #fff;
+      text-decoration: none;
+      margin-right: 5px;
+    }
+
+    .nav-menu {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      margin-top: 0;
+      color: #000;
+      padding-right: 5px;
+      align-items: center;
+    }
+  
+    .hamburger {
+      display: none;
+    }
+  
+    .nav-link {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 20px;
+      color: #272a31;
+      text-decoration: none;
+      margin: 0 32px;
+    }
+  
+    .nav-list {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+    }
+  
+    .nav-item {
+      text-align: center;
+      text-decoration: none;
+      margin: 0;
+    }
+  
+    .nav-item a {
+      color: rgb(136, 136, 136);
+    }
+  
+    .nav-item a:hover {
+      color: #ec5242;
+    }
+}
