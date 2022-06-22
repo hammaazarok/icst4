@@ -16,7 +16,7 @@ const mobileMenu = () => {
 };
 
 const closeMenu = () => {
-  hamburger.innerHTML = "<i class='fas fa-bars'></i>";
+  hamburger.innerHTML = '<img src="assets/mobile_menu.png" alt=""/>';
   navMenu.classList.remove('show');
   hamburger.classList.remove('show');
 };
@@ -25,3 +25,4 @@ const navLink = document.querySelectorAll('.nav-link');
 navLink.forEach((n) => n.addEventListener('click', closeMenu));
 
 hamburger.addEventListener('click', mobileMenu, false);
+
