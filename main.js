@@ -12,7 +12,6 @@ const mobileMenu = () => {
   }
 
   navheader.classList.toggle('margin-top');
-  
 };
 
 const closeMenu = () => {
@@ -25,4 +24,3 @@ const navLink = document.querySelectorAll('.nav-link');
 navLink.forEach((n) => n.addEventListener('click', closeMenu));
 
 hamburger.addEventListener('click', mobileMenu, false);
-
