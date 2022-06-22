@@ -298,11 +298,16 @@ body {
   padding: 0 40px;
   gap: 5px;
   flex-wrap: wrap;
+  justify-self: center;
 
 }
 
 .partner-list-container {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .partner-line {
@@ -326,7 +331,20 @@ body {
   margin-left: 10px;
 }
 
+.footer-item{
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+}
 
+.footer-item img{
+max-width: 200px;
+max-height: 100px;
+}
+
+.copyright_subtitle{
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
   .wrapper {
@@ -531,7 +549,9 @@ body {
   padding: 0;
   padding-bottom: 80px;
 }
-
+.copyright_subtitle{
+  display: block;
+}
 }
 
 @media screen and (min-width: 1600px) {}
