@@ -148,7 +148,7 @@ body {
   color: #d3d3d3;
 }
 
-.color4{
+.color4 {
   color: #fff;
 }
 
@@ -419,14 +419,22 @@ body {
 .history-list {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   gap: 5%;
+}
+
+.history-images {
+  display: flex;
+  flex-direction: column;
 }
 
 .history-images img {
   outline: 127px solid rgba(255, 0, 0, 0.5);
   outline-offset: -127px;
   overflow: hidden;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 .history-images img:hover {
@@ -668,4 +676,7 @@ body {
     display: block;
   }
 
+  .history-images {
+    flex-direction: row;
+  }
 }
