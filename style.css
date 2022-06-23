@@ -1,6 +1,9 @@
 @import url('http://fonts.cdnfonts.com/css/lato');
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
+*{
+  box-sizing: border-box;
+}
 body {
   display: flex;
   justify-content: center;
@@ -326,6 +329,11 @@ body {
   align-items: center;
   flex-direction: row;
   gap: 5%;
+}
+
+.partner-item img{
+width: 100px;
+height: 50px;
 }
 
 .footer {
@@ -679,4 +687,9 @@ body {
   .history-images {
     flex-direction: row;
   }
+
+  .partner-item img{
+    width: 200px;
+    height: 100px;
+    }
 }
