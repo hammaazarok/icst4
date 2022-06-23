@@ -148,6 +148,10 @@ body {
   color: #d3d3d3;
 }
 
+.color4{
+  color: #fff;
+}
+
 .cocogoose-font {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
@@ -339,7 +343,7 @@ body {
   align-items: center;
   height: auto;
   padding-bottom: 80px;
-  background-color: #fff;
+  background-color: rgb(61, 60, 60);
 }
 
 .footer-item {
@@ -664,7 +668,4 @@ body {
     display: block;
   }
 
-  .footer-about {
-    background-color: rgb(61, 60, 60);
-  }
 }
